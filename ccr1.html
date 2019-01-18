@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CCR </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+</head>
+<body>
+	<style>
+		.header-bg{
+			
+			overflow: hidden;
+
+
+		}
+		
+		.page-wrap{
+			background-image: url(http://www.pptbackgrounds.org/uploads/silver-light-blue-wave-abstract-backgrounds-powerpoint.jpg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			position: relative;
+			background-size: 100%;
+		}
+		#navcontainer{
+			padding-left: 30%;
+		}
+		.nv{
+			background: rgba(0,0,0,0);
+			padding-left:33%;
+			margin-right: 0px;
+			padding-top: 10px;
+			font-family: ariel black;
+		}
+		#l1{
+			color: #616570;
+			font-size: 10px;
+			margin-left: 10px;
+		}
+		#l1:hover{
+			color: black;
+			border-bottom: 2.5px solid orange;
+			padding-bottom: 2px;
+			background-color: rgba(255,255,255,0);
+
+		}
+		.active>a{
+			color: #000000!important;
+			border-bottom: 2.5px solid orange;
+			padding-bottom: 2px!important;
+		}
+		#can{
+			padding-left: 60px;
+			padding-top: 50px;
+			height: 200px;
+			width: 400px;
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		padding-right: 50px;
+
+		}
+		#can2{
+			padding-left: 60px;
+			padding-top: 130px;
+			height: 300px;
+			width: 400px;
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		padding-right: 50px;
+		}
+		.btn1{
+			color: black;
+			background-color: #f9c70e;
+			border: 3px solid rgba(0,0,0,0);
+		    outline: #f9c70e solid 2px;
+   			margin: auto;    
+    		padding-left: 35px;
+    		padding-right: 35px;
+    		padding-top: 0PX;
+    		padding-bottom: 0PX;
+    		text-align: center;
+    		font-family: Ariel black;
+		}
+		.c1{
+			text-align: center;
+			font-family: cursive;
+			padding-bottom: 100px;
+		}
+		#img1{
+			width: 100%;
+			height: 170px;
+			object-fit: cover;
+		}
+		.c2{
+			padding-top: 100px;
+		}
+		#pf{
+			text-align: center;
+			font-size: 18px;
+			font-weight: bold;
+			background-color: rgba(0,0,0,0);
+		}
+		.txt{
+			text-align: center;
+			font-family: cursive;
+			padding-bottom: 50px;
+		}
+		#vid{
+			height: 380px;
+			width: 94%;
+
+		}
+		.c3{
+			padding-top: 60px;
+			padding-bottom: 60PX;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.txt2{
+			text-align: center;
+			font-family: cursive;
+			font-size: 25px;
+			padding-top: 100px;
+			padding-bottom: 35px;
+		}
+		#txt3{
+			text-align: left;
+			font-family: cursive;
+			font-size: 20px;
+			color: black;
+		}
+		.c4{
+			background-color: #c4e5f2;
+			padding-left:60px;
+		}
+		.foo1{
+			padding-top: 25px;
+			
+			padding-bottom: 15px;
+		}
+		#txt4{
+			font-weight: bold;
+			font-size: 13px;
+			color: black;
+
+		}
+		#txt5{
+			font-weight: bold;
+			font-size: 13px;
+			color: black;
+			margin-right: 15px;
+			margin-left: 15px;
+
+		}
+		#fa1{
+			border-radius: 50%;
+			background-color: #000;
+			color: white;
+			font-size: 20px;
+			padding: 3px;
+			padding-left: 8px;
+			padding-right: 8px;
+			margin-right: 5px;
+		}
+
+		#fa2{
+			border-radius: 50%;
+			background-color: #000;
+			color: white;
+			font-size: 20px; 
+			padding: 3px;
+			margin-right: 5px; 
+		}
+		.t2{
+			text-align: center;
+		}
+		.t3{
+			text-align: right;
+		}
+		.f12{
+			display: none;
+		}
+		.icon-bar{
+			background-color: #fff;
+		}
+	@media(max-width: 768px){
+		#can{
+			padding-right: 20px;
+			padding-left:20px;
+			padding-top: 50px;
+			height: 100%;
+			width: 100%;
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+
+		}
+		#can2{
+			padding-top: 20px;
+			padding-left: 0px;
+			padding-right: 0px;
+			object-fit: cover;
+		}
+		.c2{
+			padding-top: 0px;
+			padding-left: 15px;
+		}
+		.c3{
+			padding-top: 10px;
+			padding-bottom: 10PX;
+		}
+		.t2{
+			text-align: left;
+			margin-top: 10px;
+		}
+		.t3{
+			text-align: left;
+			margin-top: 10px;
+		}
+
+		.f11{
+			display: none;
+		}
+		#txt5{
+			font-weight: bold;
+			font-size: 13px;
+			color: black;
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+		.f12{
+			display: block;
+		}
+		#navcontainer{
+			padding-left: 4%;
+		}
+	}
+	
+
+	
+	</style>
+	<div class="header-bg page-wrap">
+		<div class="navbar-nv">
+			<div class="container-fluid" id="navcontainer">
+		    	<div class="navbar-header">
+			      	<button type="button" class="navbar-toggle navbar-inverse collapsed" data-toggle="collapse" data-target="#nav1">
+
+			      		<span class="sr-only">Toggle Navigation</span>
+			      		<span class="icon-bar"></span>
+			      		<span class="icon-bar"></span>
+			      		<span class="icon-bar"></span>
+			      	</button>
+			      	<div class="navbar-collapse collapse" id="nav1">
+			      		<ul class="nav navbar-nav navbar-left" id="left-link">
+			      			<li class="active"><a href="#" id="l1"><b>HOME</b></a></li>
+			      			<li><a href="#" id="l1"><b>INVENTORY</b></a></li>
+			      			<li><a href="#" id="l1"><b>RESOURCES</b></a></li>
+			      		</ul>
+			      		<ul class="nav navbar-nav navbar-right" id="right-link">
+			      			<li><a href="#" id="l1"><b>FAQ</b></a></li>
+			      			<li><a href="#" id="l1"><b>BLOG</b></a></li>
+			      			<li><a href="#" id="l1"><b>CONTACT</b></a></li>
+			      		</ul>
+			      	</div>
+		    	</div>
+	  		</div>
+		</div>
+		<img src="canada.png" id="can">
+		<img src="https://hips.hearstapps.com/roa.h-cdn.co/assets/cm/14/47/640x358/546b4ad0bcf3b_-_boom-94964375-lg.gif?resize=480:*" id="can2"><br>
+		<div class="container c1">
+			<h3 ><b> Tired Of being driven by your old car and bad credits?</b></h3><br>
+			<button type="button" class="btn1"><p style="margin-top: 15px;"><b>APPLY NOW</b></p></button>
+		</div>
+	</div>
+	<div class="container c2">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="panel-group">
+    			<div class="panel">
+     			 <div class="panel-body"><img src="car1.png" id="img1"></div>
+     			 <div class="panel-footer" id="pf">
+     			 	<p>Nissan Rouge</p>
+     			 </div>
+    			</div>
+ 			</div>
+ 		</div>
+ 		<div class="col-md-3">
+			<div class="panel-group">
+    			<div class="panel">
+     			 <div class="panel-body"><img src="car2.png" id="img1"></div>
+     			 <div class="panel-footer" id="pf">
+     			 	<p>Hyundai Elantra</p>
+     			 </div>
+     			 </div>
+ 			</div>
+ 		</div>
+		<div class="col-md-3">
+			<div class="panel-group">
+    			<div class="panel">
+     			 <div class="panel-body"><img src="car3.png" id="img1"></div>
+     			 <div class="panel-footer" id="pf">
+     			 	<p>Ram 1500</p>
+     			 </div>
+    			</div>
+ 			</div>
+ 		</div>
+		<div class="col-md-3">
+			<div class="panel-group">
+    			<div class="panel">
+     			 <div class="panel-body"><img src="car4.png" id="img1"></div>
+     			 <div class="panel-footer" id="pf">
+     			 	<p>Ford Escape</p>
+     			 </div>
+    			</div>
+ 			</div>
+ 		</div>
+	</div>
+	</div>
+	<div class="txt">
+		<h3 ><b> We have got your car ready!</b></h3>
+		<h3 style="padding-bottom: 30px;"><b> Turn the ignitation to get started</b></h3>
+		<button type="button" class="btn1"><p style="margin-top: 15px;"><b>APPLY NOW</b></p></button>
+	</div>
+	<div class="container c3" >
+		<div class="col-md-8">
+			<video id="vid" controls>
+  				<source src="https://www.youtube.com/watch?v=yKAfwBPvsMA" type="video/mp4">
+  				<source src="https://www.youtube.com/watch?v=yKAfwBPvsMA" type="video/ogg">
+  			</video>
+		</div>
+		<div class="col-md-4" style="text-align: center;">
+			<div class="txt2">
+				<p><b>Fill out an easy 30 seconds form to claim your car now!</b></p>
+			</div>
+			<button type="button" class="btn1"><p style="margin-top: 15px;"><b>APPLY NOW</b></p></button>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<footer>
+	<div class="container-fluid c4">
+		<div class="row foo1">
+			<div class="col-md-2">
+				<a href="" id="txt3" ><b>ABOUT US</b></a>
+			</div>
+			<div class="col-md-3 t2" >
+				<a href="#" id="txt3" ><b> RESOURCES</b> </a>
+			</div>
+			<div class="col-md-2 t3" >
+				<a  href="#" id="txt3"  ><b>GET IN TOUCH</b></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<p id="txt4">Mauris placerat eleifend leo. Quisque sit amet est et sapien Vestibulum erat wisi.</p>
+				<p id ="txt4">Mauris placerat eleifend leo. Quisque sit amet est et sapien Vestibulum erat wisi, condimentum sed, commodo vitae</p>
+				<div class="f11">
+					<a href="" id="txt4">Privacy Policy  </a>
+					<span id="txt5">|</span>
+					<a href="" id="txt4">Legal Agreement  </a>
+					<span id="txt5">|</span>
+					<a href="" id="txt4"> Terms of Use</a>
+				</div>
+				<div class="f12">
+					<br>
+					<p><a href="" id="txt4">Privacy Policy  </a></p>
+					
+					<p><a href="" id="txt4">Legal Agreement  </a></p>
+					
+					<p><a href="" id="txt4"> Terms of Use</a></p>
+				</div>
+
+			</div>
+			<div class="col-md-3">
+				<div class='demopadding'>
+  					<a href="#" class="fa fa-facebook" aria-hidden="true" id="fa1"></a>
+  					<a href="#" class="fa fa-twitter" aria-hidden="true" id="fa2" ></a>
+  					<a href="#" class="fa fa-instagram" aria-hidden="true" id="fa2"></a>
+  					<a href="#" class="fa fa-google" aria-hidden="true" id="fa2"> </a>
+				</div>  
+			</div>
+		</div>
+	</div>
+</footer>
+</html>
